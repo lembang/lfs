@@ -1,0 +1,10 @@
+VDI -> Virtual Box Image
+lfs.vdi 
+size  : 100 GB
+
+partition table -> 'a bit' Monolithic Partition System
+=====================================
+/dev/sda1   /boot     ext2    100 MB
+/dev/sda2   /         ext4     98 GB
+/dev/sda3   swap      swap      2 GB
+
